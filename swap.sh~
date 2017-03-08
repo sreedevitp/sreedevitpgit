@@ -1,0 +1,9 @@
+echo "Enter the first number"
+read a
+echo "enter the second number"
+read b
+echo "Before swapping a = ` expr $a`  and b = "`expr $b`
+c=$a
+a=$b
+b=$c
+echo "After swapping a = $a and b = $b" 
