@@ -1,6 +1,10 @@
 second file
 haii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+hello
+>>>>>>> firstbranch
 =======
 hello
 >>>>>>> firstbranch
