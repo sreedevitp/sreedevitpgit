@@ -2,4 +2,7 @@ second file
 haii...
 hello
 how r u??
+<<<<<<< HEAD
 hiiiii
+=======
+>>>>>>> first
