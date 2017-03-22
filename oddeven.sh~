@@ -1,0 +1,20 @@
+echo "Enter the limit"
+read l
+echo "Enter the numbers"
+i=0
+es=0
+os=0
+while [ $i -le $l ]
+read n
+do
+if $n % 2 -eq 0
+then
+ es=`expr $es + $n`
+else
+os=`expr $os + $n`
+fi
+done 
+echo " The oddsum is $os "
+echo " The evensum is $es "
+
+
