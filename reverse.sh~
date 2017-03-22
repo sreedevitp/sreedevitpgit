@@ -1,0 +1,5 @@
+echo "enter a name"
+read a
+len =`echo $a |wc`
+i=`expr $len -1`
+echo "Length of string 
